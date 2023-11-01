@@ -1,3 +1,6 @@
-const secondHand = document.querySelector('.second');
-const minsHand = document.querySelector('.minute');
-const hourHand = document.querySelector('.hour')
+const secondHand = document.querySelector('[data-hour-hand]');
+const minsHand = document.querySelector('[data-minute-hand]');
+const hourHand = document.querySelector('[data-second-hand]');
+
+
+
