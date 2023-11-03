@@ -1,6 +1,7 @@
 body{
     background-color: bisque;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -28,7 +29,7 @@ body{
     text-align: center;
     transform: rotate(var(--rotation));
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+   
 }
 
 .clockContainer .number1 {--rotation: 30deg;}
@@ -87,5 +88,35 @@ body{
 .clockContainer .hand.hour{
     width: 13px;
     height: 35%;
-    background-color:black;
+    background-color:rgb(19, 46, 36);
+}
+
+
+.info {
+    width:150px;
+    height:27px;
+    position:absolute;
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    z-index: 3;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 5px;
+   
+
+
+}
+
+.weekday {
+    top:75%;
+    
+  
+    
+}
+
+.date{
+    top:25%;
+
 }
